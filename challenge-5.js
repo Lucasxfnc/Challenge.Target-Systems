@@ -20,6 +20,8 @@ function tornarLento (txt) {
 
     // junta todos os elementos de um array (ou um array-like object) em uma string e retorna esta string.
 }
+
+// inversão dos caracteres da string
 function reverseStr(txt) {
     return (txt === '') ? '' : reverseStr(txt.substr(1)) + txt.charAt(0);
 //    caso base; recebe o novo txt; quando a condição é satisfeita retorna o texto invertido realizando diversas chamadas aninhadas;

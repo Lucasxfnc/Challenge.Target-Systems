@@ -33,8 +33,7 @@ console.log(`O percentual de faturamento do estado de MG é: ${percEstado(mg).to
 console.log(`O percentual de faturamento do estado do ES é: ${percEstado(es).toFixed(1)}%`);
 console.log(`O percentual de faturamento do estado de OUT é: ${percEstado(out).toFixed(1)}%`);
 
-// {
-//     class regioes {
+// {    class regioes {
 //         // atributos:
 //         constructor(vlrSP, vlrRJ, vlrMG, vlrES, vlrOUT){
 //             this.sp = vlrSP;
@@ -54,12 +53,12 @@ console.log(`O percentual de faturamento do estado de OUT é: ${percEstado(out).
 //             return (aux / this.fatMensal()) * 100;
 //         }
 //     };
-    
+//                               sp         rj       mg        es      outros
 //     const dist = new regioes(67.83643, 36.67866, 29.22988, 27.16548, 19.84953);
     
-//     console.log(dist.percRegiao(sp));
-//     console.log(dist.percRegiao(rj));
-//     console.log(dist.percRegiao(mg));
-//     console.log(dist.percRegiao(es));
-//     console.log(dist.percRegiao(out));
+//     console.log(dist.percRegiao(67.83643).toFixed(1)); // sp
+//     console.log(dist.percRegiao(36.67866).toFixed(1)); // rj
+//     console.log(dist.percRegiao(29.22988).toFixed(1)); // mg
+//     console.log(dist.percRegiao(27.16548).toFixed(1)); // es
+//     console.log(dist.percRegiao(19.84953).toFixed(1)); // outros
 // }

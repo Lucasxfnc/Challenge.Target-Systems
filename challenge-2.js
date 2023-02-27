@@ -27,3 +27,4 @@ function fibonacci(nsequence){
 }
 
 console.log(fibonacci(21));
+console.log(fibonacci(14));

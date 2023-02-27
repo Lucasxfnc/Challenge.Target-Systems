@@ -46,13 +46,10 @@ function mediaMensal(arryObjct){
     // descobrir o menor e maior faturamento ocorrido em um dia do mês
     // percorre e compara os elementos do array de objetos
     for(let i=0; i<arryObjct.length; i++){
-        // caso o conteúdo do atributo valor seja diferente de 0 o laço incrementa a variável "billingDays" e ignora os dias em que não houveram faturamento
+        // caso o conteúdo do atributo valor seja diferente de 0 o laço incrementa a variável "billingDays" e ignora os dias em que não houveram faturamento e realiza a soma dos faturamentos diários e armazena na variável "sumTotalFat"
         if(arryObjct[i].valor != 0){
             billingDays++;
-        }
-        // caso o conteúdo do atributo valor seja diferente de 0 o laço realiza a soma dos faturamentos diários e armazena na variável "sumTotalFat"
-        if(arryObjct[i].valor !=0){
-            sumTotalFat += arryObjct[i].valor;
+            sumTotalFat += arryObjct[i].valor; 
         }
     }
     // fórmula da média mensa de faturamento (faturamento / período)
